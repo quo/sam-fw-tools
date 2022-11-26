@@ -27,6 +27,20 @@ def crc16(data):
 		crc = CRC16_TABLE[((crc >> 8) ^ b) & 0xff] ^ (crc << 8 & 0xffff)
 	return crc
 
+def gen_crc32_table():
+	for i in range(256):
+		crc = i
+		for bit in range(8):
+			if crc & 1: crc = (crc >> 1) ^ 0xedb88320
+			else: crc = crc >> 1
+		yield crc & 0xffffffff
+CRC32_TABLE = list(gen_crc32_table())
+def crc32(data):
+	crc = 0xffffffff
+	for b in data:
+		crc = CRC32_TABLE[(crc ^ b) & 0xff] ^ (crc >> 8)
+	return crc ^ 0xffffffff
+
 def fw_version_str(v):
 	return '%i.%i.%i' % (v >> 24, v >> 8 & 0xffff, v & 0xff)
 
