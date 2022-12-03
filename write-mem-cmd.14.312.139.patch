@@ -1,6 +1,6 @@
-# SAM firmware patch to add a 'write memory' debug command (TC 7 CID 0xEE, replaces CID 0x30).
+# Patch for SP7 SAM firmware version 14.312.139.
+# Adds a 'write memory' debug command (TC 7 CID 0xEE, replaces CID 0x30).
 # Command args: u32 address, u32 value
-# Tested with SP7 firmware version 14.312.139. May work with other versions if offsets are adjusted.
 
 # Change FW version reported by TC 1 CID 0x13
 FW+0x22124: 8b 38 01 0e -> ee 38 01 0e

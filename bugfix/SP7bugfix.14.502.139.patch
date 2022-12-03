@@ -1,0 +1,36 @@
+# FW version
+0x00000004: 8b f6 01 0e -> 8c f6 01 0e
+0x00000628: 8b f6 01 0e -> 8c f6 01 0e
+FW+0x089ec: 8b f6 01 0e -> 8c f6 01 0e
+FW+0x13ee0: 8b f6 01 0e -> 8c f6 01 0e
+FW+0x223e0: 8b f6 01 0e -> 8c f6 01 0e
+FW+0x28238: 8b f6 01 0e -> 8c f6 01 0e
+FW+0x43410: 8b f6 01 0e -> 8c f6 01 0e
+FW+0x4900c: 8b f6 01 0e -> 8c f6 01 0e
+FW+0x49018: 8b f6 01 0e -> 8c f6 01 0e
+FW+0x49088: 8b f6 01 0e -> 8c f6 01 0e
+FW+0x49094: 8b f6 01 0e -> 8c f6 01 0e
+
+# KaosScheduleWaitingTask
+FW+0x83de: 2d e9 f0 41 65 4d 2c 68 26 00 07 00 ff 2c 07 d1 -> 2d e9 f7 4f 41 f6 54 5e c2 f2 01 0e 42 f6 60 68
+FW+0x83ee: 28 60 ff 22 57 4b 68 21 48 43 18 44 c2 64 50 e0 -> de f8 00 70 c2 f2 00 08 68 22 ff 2f 02 fb 00 82
+FW+0x83fe: 00 20 5f f0 ff 3c 61 46 5f f0 68 0e df f8 44 81 -> 05 d1 ce f8 00 00 d7 64 03 b0 bd e8 f0 8f d3 69
+FW+0x840e: 0e fb 07 f2 42 44 d2 69 12 f1 01 0f 0a d0 0e fb -> 59 1c 23 d0 d2 e9 08 41 1b 19 41 f1 00 09 3d 46
+FW+0x841e: 07 f1 41 44 d1 e9 08 23 11 00 0e fb 07 f2 42 44 -> ba 46 4f f0 68 0b 0b fb 05 84 e1 69 4e 1c 0a d0
+FW+0x842e: d2 69 51 18 62 46 0e fb 04 f3 43 44 db 69 13 f1 -> 66 6a 01 96 26 6a 89 19 01 9e 46 f1 00 06 99 42
+FW+0x843e: 01 0f 09 d0 0e fb 04 f2 42 44 d2 e9 08 23 0e fb -> 76 eb 09 06 0e d3 bd 42 1c bf 68 23 03 fb 0a 83
+FW+0x844e: 04 f3 43 44 db 69 9a 18 8a 42 0e d3 0e fb 07 f0 -> d5 64 0c bf ce f8 00 00 d8 64 d5 e7 99 46 de e7
+FW+0x845e: 40 44 c4 64 28 68 84 42 01 d1 2f 60 03 e0 0e fb -> 0d 46 e0 e7 e1 6c ff 29 aa 46 f9 d1 e0 64 d1 64
+FW+0x846e: 06 f0 -> ca e7
+
+# KaosScheduleTimer
+FW+0x8f90: 2d e9 f0 41 01 00 49 4e 30 68 07 00 0d 00 00 28 -> 2d e9 f7 4f 41 f6 5c 5e c2 f2 01 0e 43 f2 50 78
+FW+0x8fa0: 08 d1 35 60 00 21 40 4a 30 20 45 43 02 eb 05 00 -> de f8 00 70 c2 f2 00 08 30 22 02 fb 00 82 2f b9
+FW+0x8fb0: c1 62 4f e0 00 21 5f f0 ff 3c 64 46 5f f0 30 0e -> ce f8 00 00 d7 62 03 b0 bd e8 f0 8f 13 6a 59 1c
+FW+0x8fc0: df f8 e4 80 0e fb 05 f2 42 44 12 6a 12 f1 01 0f -> 23 d0 d2 e9 06 41 1b 19 41 f1 00 09 3d 46 ba 46
+FW+0x8fd0: 0a d0 0e fb 05 f2 42 44 d2 e9 06 23 14 00 0e fb -> 4f f0 30 0b 0b fb 05 84 21 6a 4e 1c 0a d0 e6 69
+FW+0x8fe0: 05 f2 42 44 12 6a 14 19 62 46 0e fb 00 f3 43 44 -> 01 96 a6 69 89 19 01 9e 46 f1 00 06 99 42 76 eb
+FW+0x8ff0: 1b 6a 13 f1 01 0f 09 d0 0e fb 00 f2 42 44 d2 e9 -> 09 06 0e d3 bd 42 1c bf 30 23 03 fb 0a 83 d5 62
+FW+0x9000: 06 23 0e fb 00 f3 43 44 1b 6a 9a 18 a2 42 0e d3 -> 0c bf ce f8 00 00 d8 62 d5 e7 99 46 de e7 0d 46
+FW+0x9010: 0e fb 05 f1 41 44 c8 62 31 68 88 42 01 d1 35 60 -> e0 e7 e1 6a aa 46 00 29 f9 d1 e0 62 d1 62 ca e7
+
